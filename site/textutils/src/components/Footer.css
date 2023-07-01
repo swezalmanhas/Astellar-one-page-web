@@ -1,0 +1,30 @@
+.footer{
+  background-image: url(../Assets/frame2.png);
+  
+}
+.footer h3 {
+    font-size: 1em;
+    color: #090909!important;
+    margin-top: 0.5em !important;
+    margin-bottom: 0.5em !important;
+  
+  }
+  
+  .footer-icons {
+    margin-top: 5.5em !important;
+    margin-bottom: 0.5em !important;
+    padding: 0 !important;
+   background-color: #090909;
+  }
+  .footer h1,h5,p{
+    color: #090909;
+  }
+
+  @media screen and (max-width:450px)
+  {
+    .footer{
+      width: 135%;
+    }
+  }
+  
+ 

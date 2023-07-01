@@ -1,0 +1,100 @@
+.button{
+border-radius: 34px;
+border: none;
+color: white;
+font-size: 16px;
+padding: 11px 26px 11px 26px;
+background: linear-gradient(180deg,red,yellow);
+box-shadow: 0px 20px 24px 3px rgba(red,yellow);
+}
+.intro{
+  display: flex;
+  height: 100vh;
+ 
+  overflow: hidden;
+  background-image: url(../Assets/frame2.png);
+  
+ 
+}
+.i-left
+{
+  display: flex;
+  position: relative;
+  flex: 1;
+  flex-direction: column;
+  margin-top: 18rem;
+  margin-left: 6rem;
+  gap: 2rem;
+}
+.i-name
+{
+  display: flex;
+  flex-direction: column;
+  color: #090909;
+  font-weight: bolder;
+}
+.i-name h1
+{
+  color: #090909;
+  font-weight: 600;
+  font-size: 3rem;
+  
+}
+.i-name p {
+  font-weight: 400;
+  
+}
+.i-button
+{
+  width: 40%;
+  margin-left: 10rem;
+}
+
+
+
+
+
+
+
+.i-right
+{
+  display: flex;
+  flex: 1;
+  position: relative;
+  margin-top: 8rem;
+}
+.i-right>*
+{
+  position: absolute;
+  z-index: 1;
+}
+.i-right>:nth-child(1)
+{
+  transform: scale(0.69);
+  left:-15%;
+  top: -9%;
+}
+@media screen and (max-width:768px)
+{
+  .i-button{
+    width: 75%;
+    margin-left: 2rem;
+  }
+
+
+}
+@media screen and (max-width:450px)
+{
+  .intro{
+    width: 141%;
+  }
+  .i-name{
+    margin-right: 17rem;
+    padding-left: 3rem;
+    padding-bottom: 1rem;
+  }
+.i-button{
+  margin-left: -2rem;
+}
+}
+
